@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+{% block content %}
+    <div class="form-group">
+        <form action="download_video" method="post", role="form">
+            Youtube Link: <input type="text" name="download_path"><br>
+            <input type="submit" value="Submit", class="btn btn-default">
+        </form>
+    </div>
+{% endblock %}
